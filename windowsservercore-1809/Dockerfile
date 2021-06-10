@@ -1,6 +1,4 @@
-# More recent image versions seem to result in a password expired error:
-# https://github.com/jenkinsci/docker-inbound-agent/issues/183
-FROM jenkins/inbound-agent:4.3-7-jdk8-nanoserver-1809
+FROM jenkins/inbound-agent:4.7-1-jdk8-windowsservercore-ltsc2019
 
 # By default, jobs on a Jenkins slave will be stored in [Remote FS
 # root]\workspace, but the the Windows-based Jenkins agent's workspace
